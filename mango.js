@@ -20,7 +20,7 @@ class Mango {
         var p = this.body.position;
 
         imageMode(CENTER);
-        image(this.image, p.x, p.y);
+        image(this.image, p.x, p.y, 100,100);
 
     }
 }

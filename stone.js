@@ -20,6 +20,9 @@ class Stone {
 
         var p = this.body.position;
 
+        //p.x = mouseX;
+        //p.y = mouseY;
+
         imageMode(CENTER);
         image(this.image, p.x, p.y, this.width, this.height);
 
